@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+	int n;
+	printf("Enter an Octal number: ");
+	scanf("%o", &n);
+	printf("Decimal Representation is: %d", n);
+	return 0;
+}
